@@ -9,7 +9,7 @@ import { GameService } from '../../services/game.service';
   selector: 'app-home',
   imports: [MatSelectModule, MatFormFieldModule],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   nivelJogo: string = '';

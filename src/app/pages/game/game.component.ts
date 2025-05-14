@@ -6,7 +6,7 @@ import Swal from 'sweetalert2';
   selector: 'app-game',
   imports: [],
   templateUrl: './game.component.html',
-  styleUrl: './game.component.css'
+  styleUrl: './game.component.scss'
 })
 export class GameComponent implements OnInit {
   nivel: string = '';
