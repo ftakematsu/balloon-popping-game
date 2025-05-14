@@ -1,0 +1,27 @@
+
+<div class="m-2">
+    <h1 class="font-bold text-blue-600 text-xl">Jogo de Estourar Balões</h1>
+    
+    <div>
+        <mat-form-field>
+            <mat-label>Nível do jogo</mat-label>
+            <mat-select [(value)]="nivelJogo">
+              <mat-option>Selecione um nível</mat-option>
+              <mat-option value="1">Fácil</mat-option>
+              <mat-option value="2">Médio</mat-option>
+              <mat-option value="3">Difícil</mat-option>
+            </mat-select>
+        </mat-form-field>
+          
+        <p>Nível selecionado: {{nivelJogo}}</p>
+
+        <div>
+            <img 
+                class="cursor-pointer"
+                src="/assets/images/iniciar.png" 
+                (click)="iniciarJogo()"
+            />
+        </div>
+    </div>   
+</div>
+  
